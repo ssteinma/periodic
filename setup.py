@@ -23,7 +23,7 @@ setup(
     entry_points = {
     'console_scripts': ['periodic = periodic.table:interactive_shell']
     },
-    install_requires = ['SQLAlchemy==0.7.7'],
+    install_requires = ['SQLAlchemy>=0.7.7'],
     long_description=read('README.rst'),
     classifiers=[
         "License :: OSI Approved :: GNU General Public License (GPL)",
@@ -31,3 +31,4 @@ setup(
     ],
 
 )
+
